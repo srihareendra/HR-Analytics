@@ -11,7 +11,7 @@ These hands-on lab guides provide step-by-step directions to set up departmental
 ## Goals for this workshop
 1. Provision the infrastructure artifacts required for departmental analytics.
 2. Configure and run integration.
-3. Do sample analytics on OAC.
+3. Analyze data using OAC.
 
 
 ## Prerequisites
@@ -30,11 +30,11 @@ These hands-on lab guides provide step-by-step directions to set up departmental
 
 [Lab 300 - Configure EBS Source and run integration](MigratingOnPremtoOCI.md). 
 
-- Connection to EBS tables and views.
+- Connect to EBS tables and views.
 - Configure mapping between source and target.
 - Run integration to move data from EBS to ADW
 
-[Lab 400 - Run Analytics](ExtendApptoOCI.md).
+[Lab 400 - Run Analytics - Create Dashboards](ExtendApptoOCI.md).
 
 - Provision Analytics instance and connect to ADW
 - Run analytics
