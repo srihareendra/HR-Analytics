@@ -18,23 +18,18 @@ These hands-on lab guides provide step-by-step directions to set up departmental
 
 
 ## Labs
-[Lab 100 - Installing ODI via OCI Marketplace](ProvisionOCVS.md).
+[Lab 100 - Instantiate pattern](ProvisionOCVS.md).
 
-- Provision ODI from the marketplace 
+- Go to OCI console and run terraform to instantiate the required resources 
 - Connection to ODI via VNC Viewer
 
-[Lab 200 - Provision and Configure AWD Target](ExportWorkload.md).
+[Lab 200 - Configure EBS Source and run integration](ConfigureIntegration.md). 
 
-- Provision your ADW instance.
-- Connect ADW as your target database in ODI 
-
-[Lab 300 - Configure EBS Source and run integration](MigratingOnPremtoOCI.md). 
-
-- Connect to EBS tables and views.
+- Connect to Source EBS tables and views. (note down that target is already preconfigured by the pattern instantiation)
 - Configure mapping between source and target.
 - Run integration to move data from EBS to ADW
 
-[Lab 400 - Run Analytics - Create Dashboards](ExtendApptoOCI.md).
+[Lab 300 - Run Analytics - Create Dashboards](ExtendApptoOCI.md).
 
 - Provision Analytics instance and connect to ADW
 - Run analytics

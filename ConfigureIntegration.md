@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, you will provision a Oracle Data Integrator (ODI) stack including the Oracle Cloud Infrastructure resources needed to host the solution.
+In this lab, you will configure your EBS source in ODI, create the mapping, and run the integration.
 
 <!---To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository.-->
 
@@ -23,19 +23,29 @@ As a system administrator or application developer:
 
 ## Steps
 
-### STEP 1: Create an SDDC
+### STEP 1: Create the EBS Data Server
 
--  Sign in to the OCI console and open the navigation menu by clicking on the hamburger menu icon on the top left of the screen.
+-  Log into VNC Viewer and access ODI studio. Connect to your ODI repository and create a Data Server.
 
--  Under **Solutions and Platform**, click on **VMware Solution**.
+-  Under **Topology**, right click on **Oracle** then choose **New Data Server** .
 
-    ![](./images/Lab100/100_1.png " ")
+    ![](./images/Lab200/newdataserver.png " ")
 
-- Select the compartment where you wish to deploy the solution from the **Compartment** drop down on the left side of the screen.
+- We are adding our ebs database as our source. Fill in the credentials.
 
-- Click on the **Create SDDC** button.
+    ![](./images/Lab200/ebssource.png " ")
 
-    ![](./images/Lab100/100_2.png " ")
+- Click on the **JDBC** tab on the left and fill in the db hostname/port/servicename. Then Test the Connection.
+
+    ![](./images/Lab200/ebsdbconn.png " ")
+    ![](./images/Lab200/testconnection.png " ")
+
+- Create a Physical schema. Then choose your database schema and configure a Logical schema. Select 'New Model' and Save the file.
+
+    ![](./images/Lab200/physicalschema.png " ")
+    ![](./images/Lab200/physicalschema2.png " ")
+    ![](./images/Lab200/logicalschema.png " ")
+
 
 **Note**: Oracle Cloud Infrastructure allows logical isolation of users within a tenancy through Compartments. This allows multiple users and business units to share an OCI tenancy while being isolated from each other.
 
