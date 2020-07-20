@@ -3,7 +3,8 @@
 ## Introduction
 
 In this lab, you will configure your EBS source in ODI, create the mapping, and run the integration.
-Oracle Data Integrator is a comprehensive data integration platform that covers all requirements. It offers an extensive graphical environment to build manage, monitor and maintain integration processes resulting in faster and simpler development and maintenance for organization's. We will only scratch the surface of ODI here, but you can read more about ODI [here](https://docs.oracle.com/cd/E17904_01/integrate.1111/e12641/overview.htm#ODIGS111)
+
+Oracle Data Integrator is a comprehensive data integration platform that covers all integration requirements: from high-volume, high-performance batch loads, to event-driven, trickle-feed integration processes, to SOA-enabled data services. It offers an extensive graphical environment to build manage, monitor and maintain integration processes resulting in faster and simpler development and maintenance for organization's. We will only scratch the surface of ODI here, but you can read more about ODI [here](https://docs.oracle.com/cd/E17904_01/integrate.1111/e12641/overview.htm#ODIGS111)
 
 <!---To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository.-->
 
