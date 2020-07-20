@@ -29,7 +29,7 @@ These hands-on lab guides provide step-by-step directions to set up departmental
 - Configure mapping between source and target.
 - Run integration to move data from EBS to ADW
 
-[Lab 300 - Run Analytics - Create Dashboards](ExtendApptoOCI.md).
+[Lab 300 - Run Analytics - Create Dashboards](runanalytics.md).
 
 - Provision Analytics instance and connect to ADW
 - Run analytics

@@ -1,4 +1,4 @@
-# Provisioning Oracle Cloud VMware Solution
+# Configure EBS Source and run integration
 
 ## Introduction
 
@@ -6,7 +6,7 @@ In this lab, you will configure your EBS source in ODI, create the mapping, and 
 
 <!---To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository.-->
 
-To log issues, go to this [Confluence](https://confluence.oraclecorp.com/confluence/display/NOCSH/5.+Oracle+Cloud+VMware+Solution%3A+Training+Registration+and+Tracking) page.
+To log issues, go to [here]().
 
 ## Objectives
 
