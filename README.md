@@ -18,7 +18,7 @@ These hands-on lab guides provide step-by-step directions to set up departmental
 
 
 ## Labs
-[Lab 100 - Instantiate pattern](ProvisionOCVS.md).
+[Lab 100 - Instantiate pattern](InstantiatePattern.md).
 
 - Go to OCI console and run terraform to instantiate the required resources 
 - Connection to ODI via VNC Viewer
