@@ -24,6 +24,8 @@ As a system administrator or application developer:
 
 ### STEP 1: Create the EBS Data Server
 
+A data server stores information according to a specific technical logic which is declared into **physical schemas** attached to this data server. Every database server, JMS message file, group of flat files, and so forth, that is used in Oracle Data Integrator, must be declared as a data server. To read more about the ODI topology, click [here](https://docs.oracle.com/middleware/1212/odi/ODIDG/setup_topology.htm#ODIDG171)
+
 -  Log into VNC Viewer and access ODI studio. Connect to your ODI repository and create a Data Server.
 
 -  Under **Topology**, right click on **Oracle** then choose **New Data Server** .
@@ -48,7 +50,8 @@ As a system administrator or application developer:
 
 ### STEP 2: Setting up an Integration Project
 
-Now that you have configured your connection to your source, we will create the mapping and move the data between the two systems. An integration project is composed of several components. These components include organizational objects, such as folder, and development objects such as mappings or variables
+Now that you have configured your connection to your source, we will create the mapping and move the data between the two systems. An integration project is composed of several components. These components include organizational objects, such as folder, and development objects such as mappings or variables.
+
 In the **Designer** navigator, click **New Project** in the toolbar of the **Projects** section. Enter the Name of the project, and **Save**.
 
 For more about ODI integration projects, click [here](https://docs.oracle.com/middleware/1212/odi/ODIDG/projects.htm#ODIDG311).
@@ -73,6 +76,7 @@ For more on reverse-engineering EBS tables, click [here](https://docs.oracle.com
 
 ### STEP 4: Design your Mapping and run the integration
 
+ODI makes it easy to create mappings between your data sources and targets to refine and cleanse the data using both both both ETL and E-LT methods. You can apply extensive filters as you do mappings and more.
 We will now create our mapping from our source to the target.
 
 - Go back to the **Projects** section and select your project. Under **First Folder**, go to right-click on **Mappings** and create a new mapping.
