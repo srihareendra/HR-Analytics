@@ -35,4 +35,10 @@ These lab guides provide directions on how one can set up departmental EBS analy
 - Run analytics
 - [Optional] - Uploading DVA files
 
+## Acknowledgements
+
+Author - Maharshi Desai, Yash Lamba, Shikhar Misra, Srihareendra Bodduluri, Clarence Ondieki
+
+Last Update - July 17, 2020.
+
 **You are all set. Let us begin!**
