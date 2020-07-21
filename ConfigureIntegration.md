@@ -29,7 +29,7 @@ A data server stores information according to a specific technical logic which i
 
 -  Log into VNC Viewer and access ODI studio. Connect to your ODI repository and create a Data Server.
 
--  Under **Topology**, right click on **Oracle** then choose **New Data Server** .
+-  Under **Topology**, right click on **Oracle** then choose **New Data Server**.
 
     ![](./images/Lab200/newdataserver.png " ")
 
