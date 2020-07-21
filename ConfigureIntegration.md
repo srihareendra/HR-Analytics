@@ -4,11 +4,11 @@
 
 In this lab, you will configure your EBS source in ODI, create the mapping, and run the integration.
 
-Oracle Data Integrator is a comprehensive data integration platform that covers all integration requirements: from high-volume, high-performance batch loads, to event-driven, trickle-feed integration processes, to SOA-enabled data services. It offers an extensive graphical environment to build manage, monitor and maintain integration processes resulting in faster and simpler development and maintenance for organization's. We will only scratch the surface of ODI here, but you can read more about ODI [here](https://docs.oracle.com/cd/E17904_01/integrate.1111/e12641/overview.htm#ODIGS111)
+Oracle Data Integrator is a comprehensive data integration platform that covers all integration requirements: from high-volume, high-performance batch loads, to event-driven, trickle-feed integration processes, to SOA-enabled data services. It offers an extensive graphical environment to build manage, monitor and maintain integration processes resulting in faster and simpler development and maintenance for organization's. We will only scratch the surface of ODI here, but you can read more about ODI [here](https://docs.oracle.com/cd/E17904_01/integrate.1111/e12641/overview.htm#ODIGS111).
 
 <!---To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository.-->
 
-To log issues, go to [here]().
+To log issues, go [here]().
 
 ## Objectives
 
@@ -25,7 +25,7 @@ As a system administrator or application developer:
 
 ### STEP 1: Create the EBS Data Server
 
-A data server stores information according to a specific technical logic which is declared into **physical schemas** attached to this data server. Every database server, JMS message file, group of flat files, and so forth, that is used in Oracle Data Integrator, must be declared as a data server. To read more about the ODI topology, click [here](https://docs.oracle.com/middleware/1212/odi/ODIDG/setup_topology.htm#ODIDG171)
+A data server stores information according to a specific technical logic which is declared into **physical schemas** attached to this data server. Every database server, JMS message file, group of flat files, and so forth, that is used in Oracle Data Integrator, must be declared as a data server. To read more about the ODI topology, click [here](https://docs.oracle.com/middleware/1212/odi/ODIDG/setup_topology.htm#ODIDG171).
 
 -  Log into VNC Viewer and access ODI studio. Connect to your ODI repository and create a Data Server.
 
@@ -37,7 +37,7 @@ A data server stores information according to a specific technical logic which i
 
     ![](./images/Lab200/ebssource.png " ")
 
-- Click on the **JDBC** tab on the left and fill in the db hostname/port/servicename. Then Test the Connection.
+- Click on the **JDBC** tab on the left and fill in the db hostname/port/servicename. Then click **Test Connection**.
 
     ![](./images/Lab200/ebsdbconn.png " ")
     ![](./images/Lab200/testconnection.png " ")
