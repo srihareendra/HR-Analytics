@@ -40,7 +40,7 @@ As a system administrator or application developer:
 
     ![](./images/Lab300/import.png " ")
     ![](./images/Lab300/import4.png " ")
-    ![](./images/Lab300/dvapwd.png " ")
+    ![](./images/Lab300/conn3.png " ")
 
 - You should see 
 
