@@ -6,7 +6,7 @@ Lines of business typically don't have timely or efficient access to data and in
 
 This solution uses Oracle Data Integrator to load and optimize data from multiple sources into a centralized Oracle Autonomous Data Warehouse and then uses Oracle Analytics Cloud to analyze the data to provide actionable insights.
 
-These hands-on lab guides provide step-by-step directions on how one can set up departmental EBS analytics in Oracle Analytics Cloud. We will show a sample connection of how to connect EBS data to OAC through a data mart, and an example of some visualizations with some refined data.
+These lab guides provide directions on how one can set up departmental EBS analytics in Oracle Analytics Cloud. We will show how to connect EBS to OAC through a data mart (ADW), and show a sample analysis with some refined data.
 
 ## Goals for this workshop
 1. Provision the infrastructure artifacts required for departmental analytics.
