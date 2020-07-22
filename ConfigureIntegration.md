@@ -85,7 +85,7 @@ We will now create our mapping from our source to the target.
     
     ![](./images/Lab200/mappings1.png " ")
 
-- You should have a target model created, drag your target table over, and connect the two together by name or by position. By name matches the names of the source to the target, and by position matches the columns by their column numbers.
+- You should have a target model created. Drag your target table over, and connect the two together by name or by position. 'By name' matches the names of the source to the target, and 'By position' matches the columns by their column numbers.
 
     ![](./images/Lab200/mappings2.png " ")
 

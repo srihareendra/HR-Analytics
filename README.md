@@ -37,7 +37,7 @@ These lab guides provide directions on how one can set up departmental EBS analy
 
 ## Acknowledgements
 
-Author - Maharshi Desai, Yash Lamba, Shikhar Misra, Srihareendra Bodduluri, Clarence Ondieki
+Author - Maharshi Desai, Yash Lamba, Shikhar Mishra, Srihareendra Bodduluri, Clarence Ondieki
 
 Last Update - July 17, 2020.
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, you will use a DVA file to.
+In this lab, you will use a DVA file to run analytics in Oracle Analytics Cloud.
 
 <!---To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository.-->
 
@@ -25,7 +25,7 @@ As a system administrator or application developer:
 
 ### STEP 1: ADW Setup
 
-- Log in to your autonomous data warehouse (ADW) instance already provisioned.
+- Log in to your already provisioned autonomous data warehouse (ADW) instance.
 
 - Use SQL developer to connect to your database with the ADMIN user.
 
@@ -34,7 +34,7 @@ As a system administrator or application developer:
 
 ### STEP 2: Analytics Cloud Setup
 
--  Log in to your analytics cloud link. On the far right hambuger menu, select **Import Project/Flow**
+-  Log in to your analytics cloud instance. On the far right hamburger menu, select **Import Project/Flow**
 
 -  Import the 'Controlling Project Expenditure Using Machine Learning.dva' file into OAC. The password is **Admin123**. Read more [here](https://docs.oracle.com/en/middleware/bi/analytics-desktop/bidvd/import-application-or-project.html).
 
@@ -42,23 +42,21 @@ As a system administrator or application developer:
     ![](./images/Lab300/import4.png " ")
     ![](./images/Lab300/conn3.png " ")
 
-- You should see 
-
 - Go to **Data** -> **Connections** and you should see a connection named 'Controlling Project Expenditure'. 
 
     ![](./images/Lab300/conn.png " ")
 
 - Click on the ellipses menu on the extreme right of the connection’s name and select inspect.
 
-- Click on the **Select** button in front of Client Credentials and select the wallet to your ADW instance. Let the username be **ADMIN** and provide the database password. Click **Save**
+- Click on the **Select** button in front of Client Credentials and select the wallet to your ADW instance. Let the username be **ADMIN** and provide the database password. Click **Save**.
 
     ![](./images/Lab300/conn2.png " ")
 
-- We will not refresh our data sets to utilize our connection. Move to the hambuger menu and select **Data**-> **Data Sets**, you will see all our tables appear below. Go ahead and reload the data.
+- We will now refresh our data sets to utilize our connection. Move to the hamburger menu and select **Data**-> **Data Sets**, you will see all our tables appear below. Go ahead and reload the data.
 
     ![](./images/Lab300/refreshdatasets.png " ")
 
-- Now, proceed to the hambuger menu and select **Catalog** and open your project. The visualizations should load, but click **Refresh Data** if needed to refresh the visuals.
+- Now, proceed to the hamburger menu and select **Catalog** and open your project. The visualizations should load, but click **Refresh Data** if needed to refresh the visuals.
 
     ![](./images/Lab300/visual.png " ")
 
