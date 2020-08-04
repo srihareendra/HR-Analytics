@@ -37,8 +37,8 @@ For a complete listing of the scripts and their functions, refer to [this](https
 You can use script hr_popul.sql to populate the tables and hr_drop.sql to drop schema HR.
 
 On sql developer, click on any of the tables, and click on *Model*, you should see the table relationships.
-
     ![](./images/hr-schema.png " ")
+
 
 ### STEP 2: Setting up the Human Resource Analytics Project in OAC
 
