@@ -3,17 +3,17 @@
       {
         "title": "Workshop README",
         "description": "HR Analytics Hands-On Workshop Overview",
-        "filename": "README.md"
+        "filename": "../README.md"
       },
       {
         "title": "Lab 100: Instantiate Pattern",
         "description": "Provisioning the infrastructure for the architecture pattern",
-        "filename": "instantiate-pattern/instantiate-pattern.md" 
+        "filename": "../instantiate-pattern/instantiate-pattern.md" 
       },
       {
         "title": "Lab 200: Run Analytics",
         "description": "Upload and analyze HR dashboards",
-        "filename": "run-analytics/run-analytics.md"
+        "filename": "../run-analytics/run-analytics.md"
       }
     ]
 }

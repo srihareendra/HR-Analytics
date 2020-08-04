@@ -1,44 +1,35 @@
 ## Introduction
 
-**Departmental Analytics (with EBS Integration)**
+**Departmental Analytics**
 
-Lines of business typically don't have timely or efficient access to data and information. Analysts gather the data manually, work with it on an individual basis, and then share copies of files through email or file servers. With Oracle Autonomous Data Warehouse and Oracle Analytics Cloud, you can load and optimize data from Oracle E-Business Suite and other sources into a centralized data warehouse location for analysis so departments can gain actionable insights.
+Lines of business like the HR department, for instance,typically don't have timely or efficient access to data and information. Analysts gather the data manually, work with it on an individual basis, and then share copies of files through email or file servers. With Oracle Autonomous Data Warehouse and Oracle Analytics Cloud, you can load and optimize data from a multitude of sources into a centralized data warehouse for analysis so departments can gain actionable insights.
 
-This solution uses Oracle Data Integrator to load and optimize data from multiple sources into a centralized Oracle Autonomous Data Warehouse and then uses Oracle Analytics Cloud to analyze the data to provide actionable insights.
+This solution uses data in an Oracle Autonomous Data Warehouse and then uses Oracle Analytics Cloud to analyze the data to provide actionable insights.
 
-These lab guides provide directions on how one can set up departmental EBS analytics in Oracle Analytics Cloud. We will show how to connect EBS to OAC through a data mart (ADW), and show a sample analysis with some refined data.
+These lab guides provide directions on how one can install the HR schema available on the Oracle Autonomous Database. We will then show how to connect ADW to OAC and show a sample analysis with some refined data.
 
 ## Goals for this workshop
-1. Provision the infrastructure artifacts required for departmental analytics.
-2. Configure EBS and run integration.
-3. Analyze data using OAC.
+1. Provision the infrastructure required for HR analytics.
+2. Analyze data using OAC.
 
 
 ## Prerequisites
 
-
 ## Labs
-[Lab 100 - Instantiate pattern](InstantiatePattern.md).
+Lab 100 - Instantiate pattern
 
 - Go to OCI console and run terraform to instantiate the required resources 
-- Connection to ODI via VNC Viewer
 
-[Lab 200 - Configure EBS Source and run integration](ConfigureIntegration.md). 
+Lab 200 - Run Analytics - Create Dashboards
 
-- Connect to Source EBS tables and views. (note down that target is already preconfigured by the pattern instantiation)
-- Configure mapping between source and target.
-- Run integration to move data from EBS to ADW
-
-[Lab 300 - Run Analytics - Create Dashboards](runanalytics.md).
-
-- Provision Analytics instance and connect to ADW
+- Connect Analytics instance to ADW
 - Run analytics
 - [Optional] - Uploading DVA files
 
 ## Acknowledgements
 
-Author - Maharshi Desai, Yash Lamba, Shikhar Mishra, Srihareendra Bodduluri, Clarence Ondieki
+Author - Maharshi Desai, Yash Lamba, Clarence Ondieki, Shikhar Mishra, Srihareendra Bodduluri, Frankie OToole 
 
-Last Update - July 17, 2020.
+Last Update - August 4, 2020.
 
 **You are all set. Let us begin!**
