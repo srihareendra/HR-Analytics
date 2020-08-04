@@ -21,18 +21,26 @@ As a system administrator or application developer:
 - Autonomous Data Warehouse (ADW) and Oracle Analytics Cloud (OAC) instances.
 - Access to sql and dva files needed to recreate this demo.
 
-## Steps
+### STEP 1: Installing HR Schema on Autonomous Database
 
-### STEP 1: ADW Setup
+- Use SQL developer to connect to your already provisioned database with the ADMIN user.
 
-- Log in to your already provisioned autonomous data warehouse (ADW) instance.
+- Run the following code to create the HR user.
 
-- Use SQL developer to connect to your database with the ADMIN user.
+    ![](./images/hruser.png " ")
 
-- Execute the 'controlling_project_expenditure.sql' script to get all the needed tables and data entries. If you are using an existing database make sure that you have no tables under ADMIN with the same names: COST, COUNTRY_FORECAST, PPM_OAC19001_PROJECT_OVERVIEW_BUDGET_VS_ACTUAL, PPM_OAC19001_ROLLED_UP, STEEL_TARIFF, STEEL_TOTAL_COST_FORECAST_
+- Now go ahead and log in as the HR user, then run the following [scripts](https://github.com/oracle/db-sample-schemas/tree/master/human_resources) to create the HR schema. Run the hr_main.sql script.
 
+A pair of optional scripts, hr_dn_c.sql and hr_dn_d.sql, is provided as a schema extension. To prepare schema HR for use with the directory capabilities of Oracle Internet Directory, run the hr_dn_c.sql script. If you want to return to the initial setup of schema HR, use script hr_dn_d.sql to undo the effects of script hr_dn_c.sql.
+For a complete listing of the scripts and their functions, refer to [this](https://docs.oracle.com/database/121/COMSC/scripts.htm#COMSC00020).
 
-### STEP 2: Analytics Cloud Setup
+You can use script hr_popul.sql to populate the tables and hr_drop.sql to drop schema HR.
+
+On sql developer, click on any of the tables, and click on *Model*, you should see the table relationships.
+
+    ![](./images/hr-schema.png " ")
+
+### STEP 2: Setting up the Human Resource Analytics Project in OAC
 
 -  Log in to your analytics cloud instance. On the far right hamburger menu, select **Import Project/Flow**
 
