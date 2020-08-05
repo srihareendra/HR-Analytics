@@ -1,6 +1,6 @@
 ## Introduction
 
-**Departmental Analytics**
+**HR Analytics**
 
 Lines of business like the HR department, for instance,typically don't have timely or efficient access to data and information. Analysts gather the data manually, work with it on an individual basis, and then share copies of files through email or file servers. With Oracle Autonomous Data Warehouse and Oracle Analytics Cloud, you can load and optimize data from a multitude of sources into a centralized data warehouse for analysis so departments can gain actionable insights.
 
@@ -11,7 +11,6 @@ These lab guides provide directions on how one can install the HR schema availab
 ## Goals for this workshop
 1. Provision the infrastructure required for HR analytics.
 2. Analyze data using OAC.
-
 
 ## Prerequisites
 
@@ -30,6 +29,6 @@ Lab 200 - Run Analytics - Create Dashboards
 
 Author - Maharshi Desai, Yash Lamba, Clarence Ondieki, Shikhar Mishra, Srihareendra Bodduluri, Frankie OToole 
 
-Last Update - August 4, 2020.
+Last Update - August 5, 2020.
 
 **You are all set. Let us begin!**

@@ -4,10 +4,6 @@
 
 In this lab, you will use a DVA file to run analytics in Oracle Analytics Cloud.
 
-<!---To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository.-->
-
-To log issues, go to [here]().
-
 ## Objectives
 
 As a system administrator or application developer:
@@ -21,22 +17,20 @@ As a system administrator or application developer:
 - Autonomous Data Warehouse (ADW) and Oracle Analytics Cloud (OAC) instances.
 - Access to sql and dva files needed to recreate this demo.
 
-## Steps
-
 ### STEP 1: ADW Setup
 
 - Log in to your already provisioned autonomous data warehouse (ADW) instance.
 
 - Use SQL developer to connect to your database with the ADMIN user.
 
-- Execute the 'controlling_project_expenditure.sql' script to get all the needed tables and data entries. If you are using an existing database make sure that you have no tables under ADMIN with the same names: COST, COUNTRY_FORECAST, PPM_OAC19001_PROJECT_OVERVIEW_BUDGET_VS_ACTUAL, PPM_OAC19001_ROLLED_UP, STEEL_TARIFF, STEEL_TOTAL_COST_FORECAST_
+- After installing the HR schema, you should be able to see the following tables: EMPLOYEES, LOCATIONS, JOBS, COUNTRIES, DEPARTMENTS, REGIONS, JOB_HISTORY
 
 
 ### STEP 2: Analytics Cloud Setup
 
 -  Log in to your analytics cloud instance. On the far right hamburger menu, select **Import Project/Flow**
 
--  Import the 'Controlling Project Expenditure Using Machine Learning.dva' file into OAC. The password is **Admin123**. Read more [here](https://docs.oracle.com/en/middleware/bi/analytics-desktop/bidvd/import-application-or-project.html).
+-  Import the 'Human Resources.dva' file into OAC. The password is **Admin123**. Read more [here](https://docs.oracle.com/en/middleware/bi/analytics-desktop/bidvd/import-application-or-project.html).
 
     ![](./images/import.png " ")
     ![](./images/import4.png " ")
@@ -60,3 +54,8 @@ As a system administrator or application developer:
 
     ![](./images/visual.png " ")
 
+### STEP 3: Uploading a file to the Datawarehouse using OAC
+
+- Click on the **Create** button and then select **Data Flow**.
+
+- Select the **Create Data Set**, choose the **Click to Browse** option and select the **AttritionPrediction.csv** file. You may drag and drop the file instead.
