@@ -15,11 +15,11 @@ These lab guides provide directions on how one can install the HR schema availab
 ## Prerequisites
 
 ## Labs
-Lab 100 - Provision the resources.
+Lab 1 - Provision Resources.
 
 - Login to the OCI console and provision the required resources. 
 
-Lab 200 - Run Analytics - Create Dashboards.
+Lab 2 - Run Analytics - Create Dashboards.
 
 - Connect Analytics instance to ADW
 - Run analytics
