@@ -27,8 +27,8 @@ Lab 2 - Run Analytics - Create Dashboards.
 
 ## Acknowledgements
 
-Author - Maharshi Desai, Yash Lamba, Clarence Ondieki, Shikhar Mishra, Srihareendra Bodduluri, Frankie OToole 
+Author - Maharshi Desai, Yash Lamba, Frankie OToole, Clarence Ondieki, Shikhar Mishra, Srihareendra Bodduluri 
 
-Last Update - August 5, 2020.
+Last Update - August 10, 2020.
 
 **You are all set. Let us begin!**
