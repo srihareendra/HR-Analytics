@@ -19,7 +19,7 @@ As a system administrator or application developer:
 
 ### STEP 1: Installing HR Schema on Autonomous Database
 
-- Use SQL developer to connect to your already provisioned database with the ADMIN user.
+- Use SQL Developer to connect to your already provisioned database with the ADMIN user. The steps to do so can be found [here](https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/connect-sql-dev182.html#GUID-14217939-3E8F-4782-BFF2-021199A908FD).
 
 - Run the following code to create the HR user.
 
@@ -40,12 +40,16 @@ For a complete listing of the scripts and their functions, refer to [this](https
     
 ### STEP 2: Setting up the Human Resource Analytics Project in OAC
 
--  Log in to your analytics cloud instance. On the far right hamburger menu, select **Import Project/Flow**
+- Login to your analytics cloud instance. This can be done from the page of the instance.
+
+    ![](./images/2a.png " ")
+
+- On the far right hamburger menu, select **Import Project/Flow**
 
     ![](./images/3.png " ")
     ![](./images/4.png " ")
 
--  Import the 'Human Resources.dva' file into OAC. The password is **Admin123**. Read more [here](https://docs.oracle.com/en/middleware/bi/analytics-desktop/bidvd/import-application-or-project.html).
+-  Import the [Human Resources.dva](../artifacts/HumanResource.dva) file into OAC. The password is **Admin123**. Read more [here](https://docs.oracle.com/en/middleware/bi/analytics-desktop/bidvd/import-application-or-project.html).
 
     ![](./images/5.png " ")
     ![](./images/6.png " ")
@@ -74,7 +78,7 @@ For a complete listing of the scripts and their functions, refer to [this](https
 
     ![](./images/11.png " ")
 
-- Select the **Create Data Set**, choose the **Click to Browse** option and select the [AttritionPrediction.csv](../data-set/AttritionPrediction.csv) file. 
+- Select the **Create Data Set**, choose the **Click to Browse** option and select the [AttritionPrediction.csv](../artifacts/AttritionPrediction.csv) file. 
 
     ![](./images/12.png " ")
     ![](./images/13.png " ")

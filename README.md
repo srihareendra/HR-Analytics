@@ -15,15 +15,15 @@ These lab guides provide directions on how one can install the HR schema availab
 ## Prerequisites
 
 ## Labs
-Lab 100 - Instantiate pattern.
+Lab 100 - Provision the resources.
 
-- Go to OCI console and run terraform to instantiate the required resources 
+- Login to the OCI console and provision the required resources. 
 
 Lab 200 - Run Analytics - Create Dashboards.
 
 - Connect Analytics instance to ADW
 - Run analytics
-- [Optional] - Uploading DVA files
+- Uploading DVA files
 
 ## Acknowledgements
 

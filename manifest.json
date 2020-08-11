@@ -6,12 +6,12 @@
         "filename": "README.md"
       },
       {
-        "title": "Lab 100: Instantiate Pattern",
-        "description": "Provisioning the infrastructure for the architecture pattern",
-        "filename": "instantiate-pattern/instantiate-pattern.md" 
+        "title": "Lab 1: Provision Resources",
+        "description": "Provisioning the resources for the architecture pattern",
+        "filename": "provision-resources/provision-resources.md" 
       },
       {
-        "title": "Lab 200: Run Analytics",
+        "title": "Lab 2: Run Analytics",
         "description": "Upload and analyze HR dashboards",
         "filename": "run-analytics/run-analytics.md"
       }

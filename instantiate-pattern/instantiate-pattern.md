@@ -1,3 +1,0 @@
-# Instantiate Pattern
-
-## Introduction
