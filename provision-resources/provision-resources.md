@@ -6,7 +6,8 @@ In the lab we will provision the resources required for the next lab.
 
 ## Objectives
 
-Provision a stack comprising of an Autonomous Datawarehouse and an Analytics Cloud instance.
+<!--Provision a stack comprising of an Autonomous Datawarehouse and an Analytics Cloud instance.-->
+Provision an Autonomous Datawarehouse instance and an Analytics Cloud instance.
 
 ## Required Artifacts
 

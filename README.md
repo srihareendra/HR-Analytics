@@ -13,13 +13,14 @@ These lab guides provide directions on how one can install the HR schema availab
 2. Analyze data using OAC.
 
 ## Prerequisites
+1. Access to an OCI tenancy.
+2. Required permissions to provision an Autonomous Database and an Analytics Instance.
 
 ## Labs
-[Lab 1 - Provision Resources](provision-resources/provision-resources.md).
-
+Lab 1 - Provision Resources
 - Login to the OCI console and provision the required resources. 
 
-[Lab 2 - Run Analytics - Create Dashboards](run-analytics/run-analytics.md).
+Lab 2 - Run Analytics - Create Dashboards
 
 - Connect Analytics instance to ADW
 - Run analytics
