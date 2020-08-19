@@ -13,8 +13,8 @@ These lab guides provide directions on how one can install the HR schema availab
 2. Analyze data using OAC.
 
 ## Prerequisites
-1. Access to an OCI tenancy.
-2. Required permissions to provision an Autonomous Database and an Analytics Instance.
+- Access to an Oracle Cloud Infrastructure (OCI) account.
+- Necessary permissions to be able provision the stack in a compartment.
 
 ## Labs
 Lab 1 - Provision Resources
