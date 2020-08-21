@@ -124,7 +124,7 @@ In order to provision an **Autonomous Database** as part of a **Resource Manager
 
     ![](./images/1.25.png " ")
 
-- Clicking on the link to the resources should take you to their pages. 
+- Clicking on the links to the resources should take you to their pages. 
     
     ![](./images/1.26.png " ")
 
