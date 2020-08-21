@@ -14,7 +14,7 @@ These lab guides provide directions on how one can install the HR schema availab
 
 ## Prerequisites
 - Access to an Oracle Cloud Infrastructure (OCI) account.
-- Necessary permissions to be able provision the stack in a compartment.
+- Necessary permissions to be able to provision the stack in a compartment.
 
 ## Labs
 Lab 1 - Provision Resources
