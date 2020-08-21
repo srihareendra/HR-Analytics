@@ -52,7 +52,7 @@ In order to provision an analytics cloud instance as part of a **Resource Manage
     ![](./images/1.7.png " ")
     ![](./images/1.8.png " ")
 
-You may follow the video [here](), if you are unsure of the above steps.
+You may follow the video [here](https://github.com/yash10097/HR-Analytics/blob/master/artifacts/mdw%20-%20idcs.mp4?raw=true), if you are unsure of the above steps.
 
 ### STEP 2: Reserve a Public IP Address
 
