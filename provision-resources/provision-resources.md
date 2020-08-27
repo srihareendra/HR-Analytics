@@ -11,7 +11,6 @@ Provision an Autonomous Datawarehouse instance and an Analytics Cloud instance.
 
 ## Required Artifacts
 
-- A public IP address for the Database
 - IDCS Access Token to provision an analytics instance as part of the stack.
 - Necessary permissions to provision the stack in a compartment.
 
@@ -47,34 +46,13 @@ In order to provision an analytics cloud instance as part of a **Resource Manage
 
 **Note:** If you don't have access to the required APIs, follow **Method 2**.
 
-- Open the token.tok file that you just downloaded. Keep it handy because in a few minutes you wll need to copy the part following **"app_access_token":**. Remember that you need the string without the quotation marks.
+- Open the token.tok file that you just downloaded. Keep it handy because in a few minutes you wll need to copy the contents of this file.
 
     ![](./images/1.7.png " ")
-    ![](./images/1.8.png " ")
 
 You may follow the video [here](https://github.com/yash10097/HR-Analytics/blob/master/artifacts/mdw%20-%20idcs.mp4?raw=true), if you are unsure of the above steps.
 
-### STEP 2: Reserve a Public IP Address
-
-In order to provision an **Autonomous Database** as part of a **Resource Manager** stack, we need to reserve a public IP Address.
-
-- Return to the navigation menu. In the **Core Infrastructure** section, under **Networking**, select **Public IPs**.
-
-    ![](./images/1.9.png " ")
-
-- Click on the **Create Reserved Public IP** button.
-
-    ![](./images/1.10.png " ")
-
-- Provide a name to the soon-to-be-reserved IP Address and hit the create button.
-
-    ![](./images/1.11.png " ")
-
-- Copy the Reserved Public IP address.
-
-    ![](./images/1.12.png " ")
-
-### STEP 3: Provision the Stack
+### STEP 2: Provision the Stack
 
 - In the navigation menu, scroll down to the **Solutions and Platform** section. Under **Resource Manager**, select **Stacks**. 
     
@@ -98,7 +76,7 @@ In order to provision an **Autonomous Database** as part of a **Resource Manager
 
 - On the **Configure Variables** screen, enter the admin password, database name and database display name.![](./images/1.18.png " ")
 
-- Check the **Auto Scaling** box to enable auto-scaling of hte database. Enabling this is optional, but recommended. Also, enter the previously reserved IP address. 
+- Check the **Auto Scaling** box to enable auto-scaling of hte database. Enabling this is optional, but recommended. Also, enter 0.0.0.0/0 in the public IP address field. 
 
     ![](./images/1.19.png " ")
 
@@ -139,7 +117,6 @@ In order to provision an **Autonomous Database** as part of a **Resource Manager
     ![](./images/1.28.png " ")
 
     ![](./images/1.29.png " ")
-
 
 
 ## Method 2: Independently Provision the Resources
