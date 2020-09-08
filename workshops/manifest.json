@@ -1,8 +1,8 @@
 {
   "tutorials": [
       {
-        "title": "Workshop README",
-        "description": "HR Analytics Hands-On Workshop Overview",
+        "title": "README",
+        "description": "Departmental Data Warehouse - HR Analytics Hands-On Workshop Overview",
         "filename": "../README.md"
       },
       {

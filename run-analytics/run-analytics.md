@@ -15,7 +15,11 @@ As a system administrator or application developer:
 ## Required Artifacts
 
 - Autonomous Data Warehouse (ADW) and Oracle Analytics Cloud (OAC) instances.
-- Access to sql and dva files needed to recreate this demo.
+- Access to the files needed to recreate this demo. 
+    - [AttritionPrediction.csv](https://objectstorage.us-ashburn-1.oraclecloud.com/p/fp-wLXQ7mf0Q5Dtae0hH9o1VABJujAfRI2UOVs4dzsU/n/oradbclouducm/b/bucket-20200907-1650/o/AttritionPrediction.csv)
+    - [HumanResources.dva](https://objectstorage.us-ashburn-1.oraclecloud.com/p/0VqpqURMs3ARIovzyCfR369sv5qqvVxMkmGbag8-wWA/n/oradbclouducm/b/bucket-20200907-1650/o/HumanResource.dva)
+
+Note: Please download the files above before continuing.
 
 ### STEP 1: Installing HR Schema on Autonomous Database
 
@@ -49,7 +53,7 @@ For a complete listing of the scripts and their functions, refer to [this](https
     ![](./images/3.png " ")
     ![](./images/4.png " ")
 
--  Import the [Human Resources.dva](../artifacts/HumanResource.dva) file into OAC. The password is **Admin123**. Read more [here](https://docs.oracle.com/en/middleware/bi/analytics-desktop/bidvd/import-application-or-project.html).
+-  Import the Human Resources.dva file into OAC. The password is **Admin123**. Read more [here](https://docs.oracle.com/en/middleware/bi/analytics-desktop/bidvd/import-application-or-project.html).
 
     ![](./images/5.png " ")
     ![](./images/6.png " ")
@@ -78,7 +82,7 @@ For a complete listing of the scripts and their functions, refer to [this](https
 
     ![](./images/11.png " ")
 
-- Select the **Create Data Set**, choose the **Click to Browse** option and select the [AttritionPrediction.csv](../artifacts/AttritionPrediction.csv) file. 
+- Select the **Create Data Set**, choose the **Click to Browse** option and select the AttritionPrediction.csv file. 
 
     ![](./images/12.png " ")
     ![](./images/13.png " ")

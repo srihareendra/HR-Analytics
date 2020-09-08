@@ -30,6 +30,6 @@ Lab 2 - Run Analytics - Create Dashboards
 
 Author - Yash Lamba, Frankie OToole, Clarence Ondieki, Shikhar Mishra, Srihareendra Bodduluri, Maharshi Desai 
 
-Last Update - August 27, 2020.
+Last Update - September 8, 2020.
 
 **You are all set. Let us begin!**

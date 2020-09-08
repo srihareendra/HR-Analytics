@@ -50,7 +50,7 @@ In order to provision an analytics cloud instance as part of a **Resource Manage
 
     ![](./images/1.7.png " ")
 
-You may follow the video [here](https://github.com/yash10097/HR-Analytics/blob/master/artifacts/mdw%20-%20idcs.mp4?raw=true), if you are unsure of the above steps.
+You may follow the video [here](https://objectstorage.us-ashburn-1.oraclecloud.com/p/OVQA-GCUjlO9VwEdWqHSre02rNj4K6wZ3VsacpzsXNg/n/oradbclouducm/b/bucket-20200907-1650/o/mdw%20-%20idcs.mp4), if you are unsure of the steps above.
 
 ### STEP 2: Provision the Stack
 
